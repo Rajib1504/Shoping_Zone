@@ -1,19 +1,16 @@
-import Header from "./assets/Components/Header";
-import Carts from "./assets/Components/Main/Carts/Carts";
-import Bookmarks from "./assets/Components/Main/Carts/Bookmark/Bookmarks"
-import Body from "./assets/Components/Main/Body";
+import Header from "./Components/Header";
+import Bookmarks from "./Components/Main/Carts/Bookmark/Bookmarks";
+import Carts from "./Components/Main/Carts/Carts";
 
 const App = () => {
   return (
-    
-         <div>
+    <div>
       <Header></Header>
-      <Body></Body>
-      <Carts></Carts>
-      <Bookmarks></Bookmarks>
-      
+      <div className="grid grid-cols-12 md:w-9/12 w-full gap-6 mx-auto">
+        <Carts></Carts>
+        <Bookmarks></Bookmarks>
+      </div>
     </div>
-  
   );
 };
 
