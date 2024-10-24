@@ -1,18 +1,26 @@
 const cart = ({ cart }) => {
   // console.log(cart);
-  const { title } = cart;
+  const { title, category, price, image, rating } = cart;
   return (
     <div>
-      <div>
-        <div className="card card-compact bg-base-100 w-96 shadow-xl">
+      <div className="flex justify-between mb-4">
+        <div className="card card-compact bg-base-100 shadow-xl">
           <figure>
-            <img src="" alt="Shoes" />
+            <img className="" src={image} alt="Shoes" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">{title}</h2>
-            <p></p>
+            <p>{category}</p>
+            <div className="flex justify-between mx-2">
+              <p>
+                {rating.rate} ⭐ ({rating.count})
+              </p>
+              <p>{price}$</p>
+            </div>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
+              <button className="btn bg-white text-black border-2 border-blue-200 btn-primary">
+                Add to Cart
+              </button>
             </div>
           </div>
         </div>

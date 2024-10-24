@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <Header></Header>
-      <div className="grid grid-cols-12 md:w-9/12 w-full gap-6 mx-auto">
+      <div className="grid grid-cols-12 w-full gap-6 mx-auto">
         <Carts></Carts>
         <Bookmarks></Bookmarks>
       </div>
