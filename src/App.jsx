@@ -10,6 +10,11 @@ const App = () => {
     const newBookmark = [...bookmark, newItem];
     setBookmark(newBookmark);
   };
+  // // remove
+  // const handelremove = (prompt) => {
+  //   const removeNew = [...bookmark, prompt];
+  //   const isexist = bookmark.find((item) => item.id !== bookmark.id);
+  // };
   return (
     <div>
       <Header></Header>

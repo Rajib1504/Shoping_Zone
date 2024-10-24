@@ -9,7 +9,7 @@ const cart = ({ cart, handelBookmark }) => {
             <img className="w-[200px] h-[200px]" src={image} alt="Shoes" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">{title}</h2>
+            <h2 className="text-2xl font-bold">{title}</h2>
             <p>{category}</p>
             <div className="flex justify-between mx-2">
               <p>
