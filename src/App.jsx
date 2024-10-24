@@ -5,7 +5,7 @@ import Bookmarks from "./assets/Components/Main/Carts/Bookmark/Bookmarks"
 
 function App() {
   return (
-    <div>
+    <div className="bg-white">
       <Header></Header>
       <Carts></Carts>
       <Bookmarks></Bookmarks>
