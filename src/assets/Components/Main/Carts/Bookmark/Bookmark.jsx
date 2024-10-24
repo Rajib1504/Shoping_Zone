@@ -1,11 +1,11 @@
+import React from 'react';
 
-
-function Bookmark() {
+const Bookmark = () => {
       return (
             <div>
                   
             </div>
       );
-}
+};
 
 export default Bookmark;

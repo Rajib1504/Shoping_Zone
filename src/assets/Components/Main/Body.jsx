@@ -1,11 +1,10 @@
-import React from 'react';
 
-const Carts = () => {
+function Body() {
       return (
             <div>
                   
             </div>
       );
-};
+}
 
-export default Carts;
+export default Body;

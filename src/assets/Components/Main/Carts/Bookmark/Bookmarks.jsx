@@ -1,12 +1,11 @@
+import React from 'react';
 
-import Bookmark from './Bookmark';
-
-function Bookmarks() {
+const Bookmarks = () => {
       return (
             <div>
-            <Bookmark></Bookmark>
+                  
             </div>
       );
-}
+};
 
 export default Bookmarks;
